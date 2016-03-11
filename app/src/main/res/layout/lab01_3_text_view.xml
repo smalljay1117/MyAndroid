@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello Word,\nNice to meet you!\n哈囉Android，\n很高興認識你，\n這是我第一個APP!"
+        android:background="#2196F3"
+        android:textColor="#E3F2FD"
+        android:textSize="45sp"/>
+
+</LinearLayout>

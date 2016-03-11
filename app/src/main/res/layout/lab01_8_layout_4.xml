@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="TOM"
+        android:padding="16sp"
+        android:background="@android:color/holo_purple"
+        android:textColor="@android:color/white"
+        android:textAppearance="@android:style/TextAppearance.Medium"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="16sp"
+        android:padding="16sp"
+        android:text="KEVIN"
+        android:background="@android:color/holo_purple"
+        android:textColor="@android:color/white"
+        android:textAppearance="@android:style/TextAppearance.Medium"
+        android:layout_centerHorizontal="true"
+        android:layout_toLeftOf="@+id/tom"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16sp"
+        android:padding="16sp"
+        android:text="JOHN"
+        android:background="@android:color/holo_purple"
+        android:textColor="@android:color/white"
+        android:textAppearance="@android:style/TextAppearance.Medium"
+        android:layout_centerHorizontal="true"
+        android:layout_toRightOf="@+id/tom"/>
+
+    <TextView
+        android:id="@+id/linda"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LINDA"
+        android:padding="16sp"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/holo_orange_dark"
+        android:textColor="@android:color/white"
+        android:textAppearance="@android:style/TextAppearance.Medium"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MARIA"
+        android:background="@android:color/holo_orange_dark"
+        android:textColor="@android:color/white"
+        android:textAppearance="@android:style/TextAppearance.Medium"
+        android:padding="16sp"
+        android:layout_marginBottom="16sp"
+        android:layout_above="@+id/linda"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="COCO"
+        android:background="@android:color/holo_orange_dark"
+        android:textColor="@android:color/white"
+        android:padding="16sp"
+        android:layout_marginLeft="16sp"
+        android:textAppearance="@android:style/TextAppearance.Medium"
+        android:layout_toRightOf="@+id/linda"
+        android:layout_alignParentBottom="true"/>
+
+    <TextView
+        android:id="@+id/amy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AMY"
+        android:background="@android:color/holo_blue_dark"
+        android:textColor="@android:color/white"
+        android:textAppearance="@android:style/TextAppearance.Medium"
+        android:padding="16sp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"/>
+
+    <TextView
+        android:id="@+id/jimmy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="JIMMY"
+        android:textAppearance="@android:style/TextAppearance.Medium"
+        android:textColor="@android:color/white"
+        android:background="@android:color/holo_blue_dark"
+        android:padding="16sp"
+        android:layout_alignParentRight="true"
+        android:layout_above="@+id/amy"
+        android:layout_marginBottom="16sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="STEVE"
+        android:textAppearance="@android:style/TextAppearance.Medium"
+        android:textColor="@android:color/white"
+        android:background="@android:color/holo_blue_dark"
+        android:padding="16sp"
+        android:layout_alignParentRight="true"
+        android:layout_above="@+id/jimmy"
+        android:layout_marginBottom="16sp"/>
+
+</RelativeLayout>
